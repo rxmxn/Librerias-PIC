@@ -1,3 +1,7 @@
+/*
+	autor: Ramon Carrasco Duboue
+*/
+
 #define buffer_size 10
 
 //Variables para el puerto serie
@@ -32,7 +36,7 @@ void serial_port()
         {
             fRx=true;
             if((posicion < buffer_size) && !flag)
-                for(i=posicion;i<buffer_size;i++)  //el for es corto, de 2 o 3 iteraciones
+                for(i=posicion;i<buffer_size;i++)  
                     bufferRx[i]='\0';
         }    
         else

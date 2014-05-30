@@ -1,3 +1,7 @@
+/*
+	autor: Ramon Carrasco Duboue
+*/
+
 #define SIO_CLOCK_DELAY 100
 
 #bit TRISC3 = 0x0F94.3

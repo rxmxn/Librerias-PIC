@@ -1,3 +1,7 @@
+/*
+	autor: Ramon Carrasco Duboue
+*/
+
 //incluyes la biblioteca
 #include "serialLib.c"
 
